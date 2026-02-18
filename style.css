@@ -12,7 +12,7 @@
 }
 
 body {
-  color: var(--body-color);
+  background-color: var(--body-color);
 }
 
 .container {
@@ -62,4 +62,124 @@ body {
 
 .nav-icons i {
   cursor: pointer;
+}
+
+.profile-section {
+  max-width: 1020px;
+  padding-top: 5rem;
+}
+
+.profile-title {
+  padding-bottom: 3rem;
+  color: #3b3731;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.profile-card {
+  flex: 0 0 350px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 13rem;
+}
+
+.edit-btn {
+  width: 90px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.dots {
+  margin-top: -3rem;
+  padding-left: 1rem;
+}
+
+/* Avatar border match */
+.avatar-wrapper img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #f7c378;
+  object-fit: cover;
+  margin: 17px 0;
+}
+
+/* .profile-info {
+  margin-top: 2rem;
+  gap: 2rem;
+} */
+
+.profile-info h2 {
+  color: #3b3731;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.verified {
+  padding-left: 8px;
+}
+
+.profile-info .rating {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-right: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-info .rating span {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile-info .location {
+  margin-top: 8px;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.profile-info .join-date {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
 }
